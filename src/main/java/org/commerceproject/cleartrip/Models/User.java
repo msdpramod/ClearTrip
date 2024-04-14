@@ -7,7 +7,7 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 @Setter @Getter@NoArgsConstructor
-@AllArgsConstructor @Entity
+@AllArgsConstructor @Entity //@Notull
 public class User extends BaseModel {
     private String name;
     private Long funds;
